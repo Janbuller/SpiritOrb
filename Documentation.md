@@ -27,13 +27,13 @@ Random_Letters is a function that takes random letters and makes a string out of
 ### Print
 As of now there is only 1 Print type function.
 #### Print_NL
-Print_NL/Print NewLine takes a list as an argument and prints each item in different lines.
+print_NL/print NewLine takes a list as an argument and prints each item in different lines.
 ##### Syntax
-    Print_NL(List)
+    print_NL(List)
 ##### Example
     List12 = [1, 5, "ab"]
-    Print_NL(List12)
-    Print_NL([1, "DC", 12, List12)
+    print_NL(List12)
+    print_NL([1, "DC", 12, List12)
     Output:
     1
     5
