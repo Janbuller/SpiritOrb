@@ -19,8 +19,7 @@ Output:
 2
 '''
 #### Random_Letters
-Random_Letters is a function that takes random letters and throws the together in a string. <br />
-Outputs string.
+Random_Letters is a function that takes random letters and makes a string out of them.
 ##### Syntax
 '''
 Random_Letters(<Number of lettors>, <Type True for numbers>)
