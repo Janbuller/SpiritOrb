@@ -26,7 +26,7 @@ Random_Letters is a function that takes random letters and makes a string out of
     QbPyHV
 ### Print
 As of now there is only 1 Print type function.
-#### Print_NL
+#### print_NL
 print_NL/print NewLine takes a list as an argument and prints each item in different lines.
 ##### Syntax
     print_NL(List)
