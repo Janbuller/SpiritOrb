@@ -18,7 +18,7 @@ def Random_FL(List = []):
     return List[a]
 
 # Random Letters
-def Random_Letter(Amount = 1, Numbers = False, Letters_Used = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"):
+def Random_Letters(Amount = 1, Numbers = False, Letters_Used = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"):
     a = ""
     b = 0
     if Numbers == True:
