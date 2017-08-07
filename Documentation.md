@@ -43,7 +43,7 @@ print_NL/print NewLine takes a list as an argument and prints each item in diffe
     12
     [1, 5, "ab"]
 #### print_LAS
-print_LAS/print ListAsString takes a list as an argument and prints it as one string.
+print_LAS/print List As String takes a list as an argument and prints it as one string.
 ##### Syntax
     print_LAS(List)
 ##### Example
