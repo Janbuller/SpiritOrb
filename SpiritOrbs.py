@@ -5,6 +5,13 @@ def print_NL(Printing = []):
     for i in Printing:
         print(i)
 
+# Print List as String
+def print_LAS(Printing = []):
+    x = ""
+    for i in Printing:
+        x = x + i
+    print(x)
+
 # Random From List
 def Random_FL(List = []):
     a = random.randint(0, len(List) - 1)
