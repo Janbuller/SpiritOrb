@@ -42,3 +42,14 @@ print_NL/print NewLine takes a list as an argument and prints each item in diffe
     DC
     12
     [1, 5, "ab"]
+#### print_LAS
+print_LAS/print List As String takes a list as an argument and prints it as one string.
+##### Syntax
+    print_LAS(List)
+##### Example
+    List12 = ["1", "5", "ab"]
+    print_LAS(List12)
+    print_LAS(["1", "DC", "12"])
+    Output:
+    15ab
+    1DC12
