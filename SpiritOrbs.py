@@ -21,7 +21,7 @@ def Random_FL(List = []):
 def Random_Letters(Amount = 1, Numbers = False, Letters_Used = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"):
     a = ""
     b = 0
-    if Numbers == True:
+    if Numbers:
         Letters_Used = Letters_Used + "12345678901234567890"
     while Amount > b:
         a = a + Letters_Used[random.randint(0, len(Letters_Used) - 1)]
