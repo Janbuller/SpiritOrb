@@ -1,21 +1,21 @@
-import random
+#import random
+from random import randint
 
 # Print New Line
-def print_NL(Printing = []):
+def print_NL(Printing: list):
     for i in Printing:
         print(i)
 
 # Print List as String
-def print_LAS(Printing = []):
+def print_LAS(Printing: list):
     x = ""
     for i in Printing:
-        x = x + i
+        x = str(x) + str(i)
     print(x)
 
 # Random From List
-def Random_FL(List = []):
-    a = random.randint(0, len(List) - 1)
-    return List[a]
+def Random_FL(List: list):
+    return List[randint(0, len(List) - 1)]
 
 # Random Letters
 def Random_Letters(Amount = 1, Numbers = False, Letters_Used = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"):
